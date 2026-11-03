@@ -1,0 +1,128 @@
+<svg width="100%" viewBox="0 0 680 990" role="img">
+<title>Tête de sonde v2 : coupe A–A, zoom sur un embout laiton et vue arrière</title>
+<desc>Coupe longitudinale de la tête dans un plan quasi horizontal qui passe par l'axe des deux embouts latéraux, avec le tube 16 par 14 millimètres, les embouts laiton de 3,5 millimètres collés dans des logements imprimés et les tuyaux silicone 3 par 5 ; un zoom sur un embout ; une vue arrière qui montre les trois tuyaux en triangle dans le tube.</desc>
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker>
+</defs>
+
+<text class="th" x="40" y="30">Coupe A–A par l'axe des deux embouts latéraux</text>
+
+<path d="M528 98 L156 98 L156 120.8 L252 120.8 L252 219.2 L156 219.2 L156 242 L528 242 A72 72 0 0 0 600 170 A72 72 0 0 0 528 98 Z" fill="var(--t)" fill-opacity="0.12" stroke="var(--t)" stroke-width="0.75"/>
+
+<rect class="c-gray" x="40" y="122" width="212" height="6" stroke-width="0.5"/>
+<rect class="c-gray" x="40" y="212" width="212" height="6" stroke-width="0.5"/>
+<rect x="156" y="120.8" width="96" height="1.2" fill="#EF9F27"/>
+<rect x="156" y="218" width="96" height="1.2" fill="#EF9F27"/>
+
+<line x1="555" y1="143" x2="300" y2="152" stroke="#5DCAA5" stroke-width="16.8"/>
+<line x1="555" y1="197" x2="300" y2="188" stroke="#5DCAA5" stroke-width="16.8"/>
+<circle cx="555" cy="143" r="12" fill="#5DCAA5"/>
+<circle cx="555" cy="197" r="12" fill="#5DCAA5"/>
+<polygon points="578.4,161.6 555,161.8 540,162.3 528,163 516,164.1 504,165.8 498,167.2 493.8,170 498,172.8 504,174.2 516,175.9 528,177 540,177.7 555,178.2 578.4,178.4" fill="#5DCAA5"/>
+
+<rect x="192" y="141.5" width="108" height="3" fill="#EF9F27" stroke="#854F0B" stroke-width="0.5"/>
+<rect x="192" y="159.5" width="108" height="3" fill="#EF9F27" stroke="#854F0B" stroke-width="0.5"/>
+<rect x="192" y="177.5" width="108" height="3" fill="#EF9F27" stroke="#854F0B" stroke-width="0.5"/>
+<rect x="192" y="195.5" width="108" height="3" fill="#EF9F27" stroke="#854F0B" stroke-width="0.5"/>
+<rect x="192" y="144.5" width="108" height="15" fill="#5DCAA5"/>
+<rect x="192" y="180.5" width="108" height="15" fill="#5DCAA5"/>
+<rect x="40" y="143" width="152" height="18" fill="#5DCAA5"/>
+<rect x="40" y="179" width="152" height="18" fill="#5DCAA5"/>
+
+<path d="M40 137 H180 L192 136.1 H246 V141.5 H192 V143 H40 Z" fill="#AFA9EC" stroke="#534AB7" stroke-width="0.5"/>
+<path d="M40 167 H180 L192 167.9 H246 V162.5 H192 V161 H40 Z" fill="#AFA9EC" stroke="#534AB7" stroke-width="0.5"/>
+<path d="M40 173 H180 L192 172.1 H246 V177.5 H192 V179 H40 Z" fill="#AFA9EC" stroke="#534AB7" stroke-width="0.5"/>
+<path d="M40 203 H180 L192 203.9 H246 V198.5 H192 V197 H40 Z" fill="#AFA9EC" stroke="#534AB7" stroke-width="0.5"/>
+
+<line x1="600" y1="170" x2="576" y2="170" stroke="#F0997B" stroke-width="7.8"/>
+<line x1="578.9" y1="119.1" x2="561" y2="137" stroke="#F0997B" stroke-width="7.8"/>
+<line x1="578.9" y1="220.9" x2="561" y2="203" stroke="#F0997B" stroke-width="7.8"/>
+
+<rect x="180" y="130" width="130" height="42" fill="none" stroke="var(--t)" stroke-width="0.75" stroke-dasharray="4 3"/>
+
+<text class="ts" x="40" y="108" dominant-baseline="central">Tube 16 × 14 mm</text>
+<line x1="90" y1="114" x2="90" y2="124" class="leader"/>
+<line x1="582" y1="114" x2="590" y2="66" class="leader"/>
+<text class="ts" x="640" y="58" text-anchor="end" dominant-baseline="central">Orifice à 45° Ø1,3 mm (percé)</text>
+<line x1="547" y1="134" x2="505" y2="90" class="leader"/>
+<text class="ts" x="520" y="78" text-anchor="end" dominant-baseline="central">Chambre Ø4 mm (imprimée)</text>
+
+<line x1="400" y1="192" x2="398" y2="260" class="leader"/>
+<text class="ts" x="450" y="270" text-anchor="end" dominant-baseline="central">Canal Ø2,8 mm (imprimé)</text>
+<line x1="599" y1="176" x2="599" y2="284" class="leader"/>
+<text class="ts" x="640" y="294" text-anchor="end" dominant-baseline="central">Orifice axial Ø1,3 mm (percé)</text>
+<line x1="496" y1="172" x2="410" y2="292" class="leader"/>
+<text class="ts" x="400" y="302" text-anchor="end" dominant-baseline="central">Canal central (sort du plan)</text>
+
+<line x1="120" y1="256" x2="180" y2="232" class="leader"/>
+<text class="ts" x="40" y="264" dominant-baseline="central">Emboîtement Ø16,4 × 16</text>
+<text class="ts" x="40" y="286" dominant-baseline="central">← vers le boîtier</text>
+
+<rect x="40" y="330" width="12" height="12" fill="#5DCAA5"/>
+<text class="ts" x="58" y="336" dominant-baseline="central">Imprimé ouvert</text>
+<rect x="190" y="330" width="12" height="12" fill="#F0997B"/>
+<text class="ts" x="208" y="336" dominant-baseline="central">Percé après impression</text>
+<rect x="380" y="330" width="12" height="12" fill="#EF9F27"/>
+<text class="ts" x="398" y="336" dominant-baseline="central">Embout laiton</text>
+<rect x="520" y="330" width="12" height="12" fill="#AFA9EC"/>
+<text class="ts" x="538" y="336" dominant-baseline="central">Tuyau silicone</text>
+
+<text class="th" x="40" y="372">Zoom ×3 sur un embout latéral (même plan A–A)</text>
+
+<text class="ts" x="40" y="395" dominant-baseline="central">Tube 16 × 14 mm</text>
+<line x1="80" y1="402" x2="80" y2="459" class="leader"/>
+<text class="ts" x="240" y="395" dominant-baseline="central">Joint époxy, jeu 0,2 mm</text>
+<line x1="300" y1="402" x2="300" y2="448" class="leader"/>
+
+<path d="M52 410 H640 V608 H340 V446.4 H52 Z" fill="var(--t)" fill-opacity="0.12" stroke="var(--t)" stroke-width="0.75"/>
+<rect x="52" y="446.4" width="288" height="3.6" fill="#EF9F27"/>
+<rect class="c-gray" x="40" y="450" width="300" height="18" stroke-width="0.5"/>
+
+<rect x="340" y="506.7" width="144" height="66.6" fill="#EF9F27" fill-opacity="0.5" stroke="#854F0B" stroke-width="0.75"/>
+<rect x="484" y="514.8" width="156" height="50.4" fill="#5DCAA5"/>
+<rect x="160" y="508.5" width="324" height="9" fill="#EF9F27" stroke="#854F0B" stroke-width="0.75"/>
+<rect x="160" y="562.5" width="324" height="9" fill="#EF9F27" stroke="#854F0B" stroke-width="0.75"/>
+<rect x="160" y="517.5" width="324" height="45" fill="#5DCAA5"/>
+
+<path d="M40 495 H148 L160 492.3 H322 V508.5 H160 V513 H40 Z" fill="#AFA9EC" stroke="#534AB7" stroke-width="0.75"/>
+<path d="M40 585 H148 L160 587.7 H322 V571.5 H160 V567 H40 Z" fill="#AFA9EC" stroke="#534AB7" stroke-width="0.75"/>
+<rect x="40" y="513" width="120" height="54" fill="#5DCAA5"/>
+
+<line x1="40" y1="608" x2="640" y2="608" stroke="var(--t)" stroke-width="0.75" stroke-dasharray="4 3"/>
+<text class="ts" x="640" y="621" text-anchor="end" dominant-baseline="central">Coupe tronquée</text>
+
+<line x1="500" y1="632" x2="500" y2="566" class="leader"/>
+<text class="ts" x="470" y="640" dominant-baseline="central">Canal Ø2,8 mm (imprimé)</text>
+<line x1="400" y1="654" x2="400" y2="572" class="leader"/>
+<text class="ts" x="190" y="662" dominant-baseline="central">Embout laiton Ø3,5 × Ø2,5 : 10 mm dehors, 8 mm collés</text>
+<line x1="70" y1="676" x2="70" y2="586" class="leader"/>
+<text class="ts" x="40" y="684" dominant-baseline="central">Tuyau silicone 3 × 5 mm, étiré à Ø5,3 sur 10 mm</text>
+
+<text class="th" x="40" y="735">Vue arrière : trace du plan A–A</text>
+
+<path d="M74 860 a96 96 0 1 0 192 0 a96 96 0 1 0 -192 0 Z" fill="var(--t)" fill-opacity="0.08" stroke="var(--t)" stroke-width="0.75"/>
+<path d="M106 860 a64 64 0 1 0 128 0 a64 64 0 1 0 -128 0 Z M114 860 a56 56 0 1 0 112 0 a56 56 0 1 0 -112 0 Z" fill="var(--t)" fill-opacity="0.3" fill-rule="evenodd" stroke="var(--t)" stroke-width="0.75"/>
+<circle cx="170" cy="860" r="65.6" fill="none" stroke="var(--t)" stroke-width="0.75" stroke-dasharray="4 3"/>
+
+<circle cx="170" cy="832.3" r="21.2" fill="#AFA9EC" stroke="#534AB7" stroke-width="0.75"/>
+<circle cx="146" cy="873.8" r="21.2" fill="#AFA9EC" stroke="#534AB7" stroke-width="0.75"/>
+<circle cx="194" cy="873.8" r="21.2" fill="#AFA9EC" stroke="#534AB7" stroke-width="0.75"/>
+<circle cx="170" cy="832.3" r="14" fill="#EF9F27" stroke="#854F0B" stroke-width="0.5"/>
+<circle cx="146" cy="873.8" r="14" fill="#EF9F27" stroke="#854F0B" stroke-width="0.5"/>
+<circle cx="194" cy="873.8" r="14" fill="#EF9F27" stroke="#854F0B" stroke-width="0.5"/>
+<circle cx="170" cy="832.3" r="10" fill="#5DCAA5"/>
+<circle cx="146" cy="873.8" r="10" fill="#5DCAA5"/>
+<circle cx="194" cy="873.8" r="10" fill="#5DCAA5"/>
+
+<line x1="64" y1="873.8" x2="276" y2="873.8" stroke="var(--t)" stroke-width="1" stroke-dasharray="8 3 2 3"/>
+<text class="ts" x="52" y="874" text-anchor="middle" dominant-baseline="central">A</text>
+<text class="ts" x="288" y="874" text-anchor="middle" dominant-baseline="central">A</text>
+
+<text class="th" x="330" y="790">Positions des embouts (mm)</text>
+<text class="ts" x="330" y="812">Central : haut +3,46 · latéral 0</text>
+<text class="ts" x="330" y="830">Latéraux : bas −1,73 · latéral ±3,0</text>
+<text class="ts" x="330" y="848">Entraxe 6,0 (triangle équilatéral)</text>
+<text class="ts" x="330" y="870">Embout laiton Ø3,5 × Ø2,5, long. 18</text>
+<text class="ts" x="330" y="888">Tuyau 3 × 5 étiré à Ø5,3 sur l'embout</text>
+<text class="ts" x="330" y="906">Jeu avec l'intérieur du tube : 0,9</text>
+</svg>

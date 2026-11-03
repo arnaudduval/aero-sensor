@@ -1,0 +1,142 @@
+<svg width="100%" viewBox="0 0 680 956" role="img" xmlns="http://www.w3.org/2000/svg"><title>Nœuds de câblage par broche de l'ESP32</title><desc>Pour chaque broche de l'ESP32 qui reçoit plusieurs fils : un seul fil vers un nœud, puis les branches, avec résistances, condensateurs et diode</desc>
+<text class="th" x="20" y="20" dominant-baseline="central">Un fil par broche, puis un nœud (épissure soudée gainée ou WAGO)</text>
+<text class="ts" x="20" y="40" dominant-baseline="central">Chaque ligne : la broche de l'ESP32 à gauche, le nœud (point), puis les branches</text>
+<g class="c-gray"><rect x="15" y="58" width="650" height="68" rx="8" stroke-width="0.5" fill-opacity="0.25"/></g>
+<g class="c-amber"><rect x="28" y="70.0" width="112" height="44" rx="8" stroke-width="0.5"/><text class="th" x="84" y="85.0" text-anchor="middle" dominant-baseline="central">3V3</text><text class="ts" x="84" y="103.0" text-anchor="middle" dominant-baseline="central">1 broche · orange</text></g>
+<line x1="140" y1="92.0" x2="190" y2="92.0" stroke="#BA7517" stroke-width="1.5"/>
+<line x1="190" y1="80.0" x2="190" y2="104.0" stroke="#BA7517" stroke-width="1.5"/>
+<circle cx="190" cy="92.0" r="3.5" fill="#BA7517"/>
+<line x1="190" y1="80.0" x2="290" y2="80.0" stroke="#BA7517" stroke-width="1.5"/>
+<circle cx="290" cy="80.0" r="2.5" fill="#BA7517"/>
+<text class="ts" x="300" y="80.0" dominant-baseline="central">câble A : VDD du SDP n°1</text>
+<line x1="190" y1="104.0" x2="290" y2="104.0" stroke="#BA7517" stroke-width="1.5"/>
+<circle cx="290" cy="104.0" r="2.5" fill="#BA7517"/>
+<text class="ts" x="300" y="104.0" dominant-baseline="central">câble B : VDD du SDP n°2, puis Y vers VCC de l'OLED</text>
+<g class="c-gray"><rect x="15" y="134" width="650" height="92" rx="8" stroke-width="0.5" fill-opacity="0.25"/></g>
+<g class="c-gray"><rect x="28" y="158.0" width="112" height="44" rx="8" stroke-width="0.5"/><text class="th" x="84" y="173.0" text-anchor="middle" dominant-baseline="central">GND signaux</text><text class="ts" x="84" y="191.0" text-anchor="middle" dominant-baseline="central">broche GND · noir</text></g>
+<line x1="140" y1="180.0" x2="190" y2="180.0" stroke="#888780" stroke-width="1.5"/>
+<line x1="190" y1="156.0" x2="190" y2="204.0" stroke="#888780" stroke-width="1.5"/>
+<circle cx="190" cy="180.0" r="3.5" fill="#888780"/>
+<line x1="190" y1="156.0" x2="290" y2="156.0" stroke="#888780" stroke-width="1.5"/>
+<circle cx="290" cy="156.0" r="2.5" fill="#888780"/>
+<text class="ts" x="300" y="156.0" dominant-baseline="central">câble A : GND du SDP n°1</text>
+<line x1="190" y1="180.0" x2="290" y2="180.0" stroke="#888780" stroke-width="1.5"/>
+<circle cx="290" cy="180.0" r="2.5" fill="#888780"/>
+<text class="ts" x="300" y="180.0" dominant-baseline="central">câble B : GND du SDP n°2, puis Y vers GND de l'OLED</text>
+<line x1="190" y1="204.0" x2="290" y2="204.0" stroke="#888780" stroke-width="1.5"/>
+<circle cx="290" cy="204.0" r="2.5" fill="#888780"/>
+<text class="ts" x="300" y="204.0" dominant-baseline="central">boutons SW1 à SW3 : retour commun (épissure à 3)</text>
+<g class="c-gray"><rect x="15" y="234" width="650" height="116" rx="8" stroke-width="0.5" fill-opacity="0.25"/></g>
+<g class="c-gray"><rect x="28" y="270.0" width="112" height="44" rx="8" stroke-width="0.5"/><text class="th" x="84" y="285.0" text-anchor="middle" dominant-baseline="central">GND puissance</text><text class="ts" x="84" y="303.0" text-anchor="middle" dominant-baseline="central">GND près de VIN</text></g>
+<line x1="140" y1="292.0" x2="190" y2="292.0" stroke="#888780" stroke-width="1.5"/>
+<line x1="190" y1="256.0" x2="190" y2="328.0" stroke="#888780" stroke-width="1.5"/>
+<circle cx="190" cy="292.0" r="3.5" fill="#888780"/>
+<line x1="190" y1="256.0" x2="290" y2="256.0" stroke="#888780" stroke-width="1.5"/>
+<circle cx="290" cy="256.0" r="2.5" fill="#888780"/>
+<text class="ts" x="300" y="256.0" dominant-baseline="central">TP4056 : OUT−</text>
+<line x1="190" y1="280.0" x2="290" y2="280.0" stroke="#888780" stroke-width="1.5"/>
+<circle cx="290" cy="280.0" r="2.5" fill="#888780"/>
+<text class="ts" x="300" y="280.0" dominant-baseline="central">boost MT3608 : IN− / OUT− (reliés sur le module)</text>
+<line x1="190" y1="304.0" x2="290" y2="304.0" stroke="#888780" stroke-width="1.5"/>
+<circle cx="290" cy="304.0" r="2.5" fill="#888780"/>
+<text class="ts" x="300" y="304.0" dominant-baseline="central">C3 : patte −</text>
+<line x1="190" y1="328.0" x2="290" y2="328.0" stroke="#888780" stroke-width="1.5"/>
+<circle cx="290" cy="328.0" r="2.5" fill="#888780"/>
+<text class="ts" x="300" y="328.0" dominant-baseline="central">pont batterie : R6 et C6 (GND)</text>
+<g class="c-gray"><rect x="15" y="358" width="650" height="68" rx="8" stroke-width="0.5" fill-opacity="0.25"/></g>
+<g class="c-blue"><rect x="28" y="370.0" width="112" height="44" rx="8" stroke-width="0.5"/><text class="th" x="84" y="385.0" text-anchor="middle" dominant-baseline="central">VIN</text><text class="ts" x="84" y="403.0" text-anchor="middle" dominant-baseline="central">5 V · rouge/bleu</text></g>
+<line x1="140" y1="392.0" x2="190" y2="392.0" stroke="#378ADD" stroke-width="1.5"/>
+<line x1="190" y1="380.0" x2="190" y2="404.0" stroke="#378ADD" stroke-width="1.5"/>
+<circle cx="190" cy="392.0" r="3.5" fill="#378ADD"/>
+<line x1="190" y1="380.0" x2="290" y2="380.0" stroke="#378ADD" stroke-width="1.5"/>
+<circle cx="290" cy="380.0" r="2.5" fill="#378ADD"/>
+<path d="M246 374.0 L246 386.0 L234 380.0 Z" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<line x1="234" y1="374.0" x2="234" y2="386.0" stroke="#5F5E5A" stroke-width="1.5"/>
+<text class="ts" x="300" y="380.0" dominant-baseline="central">D1 (bande côté ESP) ← OUT+ du boost</text>
+<line x1="190" y1="404.0" x2="290" y2="404.0" stroke="#378ADD" stroke-width="1.5"/>
+<circle cx="290" cy="404.0" r="2.5" fill="#378ADD"/>
+<line x1="238" y1="397.0" x2="238" y2="411.0" stroke="#5F5E5A" stroke-width="1.5"/>
+<line x1="242" y1="397.0" x2="242" y2="411.0" stroke="#5F5E5A" stroke-width="1.5"/>
+<text class="ts" x="300" y="404.0" dominant-baseline="central">C3 220 µF : patte + (côté VIN)</text>
+<g class="c-gray"><rect x="15" y="434" width="650" height="68" rx="8" stroke-width="0.5" fill-opacity="0.25"/></g>
+<g class="c-teal"><rect x="28" y="446.0" width="112" height="44" rx="8" stroke-width="0.5"/><text class="th" x="84" y="461.0" text-anchor="middle" dominant-baseline="central">GPIO21</text><text class="ts" x="84" y="479.0" text-anchor="middle" dominant-baseline="central">SDA bus A</text></g>
+<line x1="140" y1="468.0" x2="190" y2="468.0" stroke="#1D9E75" stroke-width="1.5"/>
+<line x1="190" y1="456.0" x2="190" y2="480.0" stroke="#1D9E75" stroke-width="1.5"/>
+<circle cx="190" cy="468.0" r="3.5" fill="#1D9E75"/>
+<line x1="190" y1="456.0" x2="290" y2="456.0" stroke="#1D9E75" stroke-width="1.5"/>
+<circle cx="290" cy="456.0" r="2.5" fill="#1D9E75"/>
+<text class="ts" x="300" y="456.0" dominant-baseline="central">SDP n°1 : SDA</text>
+<line x1="190" y1="480.0" x2="290" y2="480.0" stroke="#1D9E75" stroke-width="1.5"/>
+<circle cx="290" cy="480.0" r="2.5" fill="#1D9E75"/>
+<line x1="226" y1="480.0" x2="226" y2="480.0" stroke="#1D9E75" stroke-width="1.5"/>
+<rect x="226" y="475.0" width="28" height="10" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<text class="ts" x="300" y="480.0" dominant-baseline="central">R1 4k7 → fil 3V3 du câble A (côté ESP)</text>
+<g class="c-gray"><rect x="15" y="510" width="650" height="68" rx="8" stroke-width="0.5" fill-opacity="0.25"/></g>
+<g class="c-teal"><rect x="28" y="522.0" width="112" height="44" rx="8" stroke-width="0.5"/><text class="th" x="84" y="537.0" text-anchor="middle" dominant-baseline="central">GPIO22</text><text class="ts" x="84" y="555.0" text-anchor="middle" dominant-baseline="central">SCL bus A</text></g>
+<line x1="140" y1="544.0" x2="190" y2="544.0" stroke="#1D9E75" stroke-width="1.5"/>
+<line x1="190" y1="532.0" x2="190" y2="556.0" stroke="#1D9E75" stroke-width="1.5"/>
+<circle cx="190" cy="544.0" r="3.5" fill="#1D9E75"/>
+<line x1="190" y1="532.0" x2="290" y2="532.0" stroke="#1D9E75" stroke-width="1.5"/>
+<circle cx="290" cy="532.0" r="2.5" fill="#1D9E75"/>
+<text class="ts" x="300" y="532.0" dominant-baseline="central">SDP n°1 : SCL</text>
+<line x1="190" y1="556.0" x2="290" y2="556.0" stroke="#1D9E75" stroke-width="1.5"/>
+<circle cx="290" cy="556.0" r="2.5" fill="#1D9E75"/>
+<line x1="226" y1="556.0" x2="226" y2="556.0" stroke="#1D9E75" stroke-width="1.5"/>
+<rect x="226" y="551.0" width="28" height="10" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<text class="ts" x="300" y="556.0" dominant-baseline="central">R2 4k7 → fil 3V3 du câble A (côté ESP)</text>
+<g class="c-gray"><rect x="15" y="586" width="650" height="92" rx="8" stroke-width="0.5" fill-opacity="0.25"/></g>
+<g class="c-purple"><rect x="28" y="610.0" width="112" height="44" rx="8" stroke-width="0.5"/><text class="th" x="84" y="625.0" text-anchor="middle" dominant-baseline="central">GPIO25</text><text class="ts" x="84" y="643.0" text-anchor="middle" dominant-baseline="central">SDA bus B</text></g>
+<line x1="140" y1="632.0" x2="190" y2="632.0" stroke="#7F77DD" stroke-width="1.5"/>
+<line x1="190" y1="608.0" x2="190" y2="656.0" stroke="#7F77DD" stroke-width="1.5"/>
+<circle cx="190" cy="632.0" r="3.5" fill="#7F77DD"/>
+<line x1="190" y1="608.0" x2="290" y2="608.0" stroke="#7F77DD" stroke-width="1.5"/>
+<circle cx="290" cy="608.0" r="2.5" fill="#7F77DD"/>
+<text class="ts" x="300" y="608.0" dominant-baseline="central">SDP n°2 : SDA</text>
+<line x1="190" y1="632.0" x2="290" y2="632.0" stroke="#7F77DD" stroke-width="1.5"/>
+<circle cx="290" cy="632.0" r="2.5" fill="#7F77DD"/>
+<text class="ts" x="300" y="632.0" dominant-baseline="central">OLED : SDA</text>
+<line x1="190" y1="656.0" x2="290" y2="656.0" stroke="#7F77DD" stroke-width="1.5"/>
+<circle cx="290" cy="656.0" r="2.5" fill="#7F77DD"/>
+<line x1="226" y1="656.0" x2="226" y2="656.0" stroke="#7F77DD" stroke-width="1.5"/>
+<rect x="226" y="651.0" width="28" height="10" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<text class="ts" x="300" y="656.0" dominant-baseline="central">R3 4k7 → fil 3V3 du câble B (côté ESP)</text>
+<g class="c-gray"><rect x="15" y="686" width="650" height="92" rx="8" stroke-width="0.5" fill-opacity="0.25"/></g>
+<g class="c-purple"><rect x="28" y="710.0" width="112" height="44" rx="8" stroke-width="0.5"/><text class="th" x="84" y="725.0" text-anchor="middle" dominant-baseline="central">GPIO26</text><text class="ts" x="84" y="743.0" text-anchor="middle" dominant-baseline="central">SCL bus B</text></g>
+<line x1="140" y1="732.0" x2="190" y2="732.0" stroke="#7F77DD" stroke-width="1.5"/>
+<line x1="190" y1="708.0" x2="190" y2="756.0" stroke="#7F77DD" stroke-width="1.5"/>
+<circle cx="190" cy="732.0" r="3.5" fill="#7F77DD"/>
+<line x1="190" y1="708.0" x2="290" y2="708.0" stroke="#7F77DD" stroke-width="1.5"/>
+<circle cx="290" cy="708.0" r="2.5" fill="#7F77DD"/>
+<text class="ts" x="300" y="708.0" dominant-baseline="central">SDP n°2 : SCL</text>
+<line x1="190" y1="732.0" x2="290" y2="732.0" stroke="#7F77DD" stroke-width="1.5"/>
+<circle cx="290" cy="732.0" r="2.5" fill="#7F77DD"/>
+<text class="ts" x="300" y="732.0" dominant-baseline="central">OLED : SCL</text>
+<line x1="190" y1="756.0" x2="290" y2="756.0" stroke="#7F77DD" stroke-width="1.5"/>
+<circle cx="290" cy="756.0" r="2.5" fill="#7F77DD"/>
+<line x1="226" y1="756.0" x2="226" y2="756.0" stroke="#7F77DD" stroke-width="1.5"/>
+<rect x="226" y="751.0" width="28" height="10" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<text class="ts" x="300" y="756.0" dominant-baseline="central">R4 4k7 → fil 3V3 du câble B (côté ESP)</text>
+<g class="c-gray"><rect x="15" y="786" width="650" height="92" rx="8" stroke-width="0.5" fill-opacity="0.25"/></g>
+<g class="c-green"><rect x="28" y="810.0" width="112" height="44" rx="8" stroke-width="0.5"/><text class="th" x="84" y="825.0" text-anchor="middle" dominant-baseline="central">GPIO35</text><text class="ts" x="84" y="843.0" text-anchor="middle" dominant-baseline="central">mesure batterie</text></g>
+<line x1="140" y1="832.0" x2="190" y2="832.0" stroke="#639922" stroke-width="1.5"/>
+<line x1="190" y1="808.0" x2="190" y2="856.0" stroke="#639922" stroke-width="1.5"/>
+<circle cx="190" cy="832.0" r="3.5" fill="#639922"/>
+<line x1="190" y1="808.0" x2="290" y2="808.0" stroke="#639922" stroke-width="1.5"/>
+<circle cx="290" cy="808.0" r="2.5" fill="#639922"/>
+<line x1="226" y1="808.0" x2="226" y2="808.0" stroke="#639922" stroke-width="1.5"/>
+<rect x="226" y="803.0" width="28" height="10" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<text class="ts" x="300" y="808.0" dominant-baseline="central">R5 100k → BAT_SW (fil rouge, après SW0)</text>
+<line x1="190" y1="832.0" x2="290" y2="832.0" stroke="#639922" stroke-width="1.5"/>
+<circle cx="290" cy="832.0" r="2.5" fill="#639922"/>
+<line x1="226" y1="832.0" x2="226" y2="832.0" stroke="#639922" stroke-width="1.5"/>
+<rect x="226" y="827.0" width="28" height="10" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<text class="ts" x="300" y="832.0" dominant-baseline="central">R6 100k → GND puissance</text>
+<line x1="190" y1="856.0" x2="290" y2="856.0" stroke="#639922" stroke-width="1.5"/>
+<circle cx="290" cy="856.0" r="2.5" fill="#639922"/>
+<line x1="238" y1="849.0" x2="238" y2="863.0" stroke="#5F5E5A" stroke-width="1.5"/>
+<line x1="242" y1="849.0" x2="242" y2="863.0" stroke="#5F5E5A" stroke-width="1.5"/>
+<text class="ts" x="300" y="856.0" dominant-baseline="central">C6 100 nF → GND puissance</text>
+<text class="ts" x="20" y="900" dominant-baseline="central">Sans nœud : GPIO27, 14, 13 (un fil par bouton). Leur retour passe par « GND signaux ».</text>
+<text class="ts" x="20" y="920" dominant-baseline="central">Côté capteur, au bout des câbles : C1/C4 et C2/C5 entre VDD et GND (voir docs/03).</text>
+<text class="ts" x="20" y="940" dominant-baseline="central">Broches à vérifier sur la sérigraphie : 3V3 et GND à droite, VIN et GND à gauche.</text>
+</svg>

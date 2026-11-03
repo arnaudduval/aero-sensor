@@ -1,0 +1,80 @@
+<svg width="100%" viewBox="0 0 680 720" role="img" xmlns="http://www.w3.org/2000/svg"><title>Implantation du boîtier avec le DevKit V1</title><desc>Vue de dessus capot retiré et coupe longitudinale du boîtier prototype avec ESP32 DevKit V1, deux SDP810, TP4056, boost, batterie plate, OLED et boutons</desc>
+<text class="th" x="20" y="22" dominant-baseline="central">Implantation prototype, DevKit V1</text>
+<text class="ts" x="20" y="40" dominant-baseline="central">Vue de dessus, capot retiré · 1 mm = 4,5 px</text>
+<rect x="91" y="50" width="463.5" height="328.5" rx="6" fill="none" stroke="#5F5E5A" stroke-width="2"/>
+<rect x="102.25" y="61.25" width="441.0" height="306.0" rx="3" fill="none" stroke="#888780" stroke-width="0.8"/>
+<g class="c-gray"><rect x="10" y="164.2" width="101.25" height="100" rx="6" stroke-width="0.5"/></g>
+<text class="th" x="52" y="206.2" text-anchor="middle" dominant-baseline="central">manchon</text>
+<text class="ts" x="52" y="223.2" text-anchor="middle" dominant-baseline="central">tube Ø16</text>
+<text class="ts" x="10" y="152.2" dominant-baseline="central">← tube vers la tête</text>
+<rect x="192.2" y="101.8" width="274.5" height="229.5" rx="3" fill="none" stroke="#888780" stroke-width="1.2" stroke-dasharray="5 3"/>
+<text class="ts" x="192.2" y="83.8" dominant-baseline="central">LiPo 61×51 dessous</text>
+<g class="c-teal"><rect x="156.2" y="124.2" width="130.5" height="81.0" rx="4" stroke-width="0.5"/></g>
+<text class="th" x="221.45" y="156.7" text-anchor="middle" dominant-baseline="central">SDP810 n°1</text>
+<text class="ts" x="221.45" y="173.7" text-anchor="middle" dominant-baseline="central">29×18</text>
+<g class="c-purple"><rect x="156.2" y="223.2" width="130.5" height="81.0" rx="4" stroke-width="0.5"/></g>
+<text class="th" x="221.45" y="255.7" text-anchor="middle" dominant-baseline="central">SDP810 n°2</text>
+<text class="ts" x="221.45" y="272.7" text-anchor="middle" dominant-baseline="central">29×18</text>
+<g class="c-gray"><rect x="313.8" y="70.2" width="229.5" height="126.0" rx="4" stroke-width="0.5"/></g>
+<text class="th" x="365.5" y="115.2" text-anchor="middle" dominant-baseline="central">ESP32</text>
+<text class="ts" x="365.5" y="132.2" text-anchor="middle" dominant-baseline="central">DevKit V1</text>
+<text class="ts" x="317.4" y="180.5" dominant-baseline="central">← antenne</text>
+<g class="c-blue"><rect x="313.8" y="209.8" width="166.5" height="76.5" rx="4" stroke-width="0.5"/></g>
+<text class="th" x="397.05" y="240.05" text-anchor="middle" dominant-baseline="central">Boost MT3608</text>
+<text class="ts" x="397.05" y="257.05" text-anchor="middle" dominant-baseline="central">37×17</text>
+<g class="c-green"><rect x="426.2" y="290.8" width="117.0" height="76.5" rx="4" stroke-width="0.5"/></g>
+<text class="th" x="484.7" y="321.05" text-anchor="middle" dominant-baseline="central">TP4056</text>
+<text class="ts" x="484.7" y="338.05" text-anchor="middle" dominant-baseline="central">26×17</text>
+<rect x="313.8" y="290.8" width="103.5" height="76.5" rx="3" fill="none" stroke="#BA7517" stroke-width="1.2" stroke-dasharray="3 3"/>
+<text class="ts" x="365.5" y="317.8" text-anchor="middle" dominant-baseline="central">nœuds</text>
+<text class="ts" x="365.5" y="340.2" text-anchor="middle" dominant-baseline="central">R1–R6, D1</text>
+<rect x="156.2" y="326.8" width="45.0" height="22.5" rx="2" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<text class="ts" x="178.8" y="359.2" text-anchor="middle" dominant-baseline="central">SW0</text>
+<rect x="219.2" y="322.2" width="49.5" height="28.349999999999998" rx="3" fill="none" stroke="#5F5E5A" stroke-width="1"/>
+<text class="ts" x="244.0" y="359.2" text-anchor="middle" dominant-baseline="central">C3</text>
+<rect x="417.2" y="70.2" width="121.5" height="121.5" rx="3" fill="none" stroke="#7F77DD" stroke-width="1.2" stroke-dasharray="5 3"/>
+<text class="ts" x="478.0" y="131.0" text-anchor="middle" dominant-baseline="central">OLED</text>
+<text class="ts" x="478.0" y="146.0" text-anchor="middle" dominant-baseline="central">(capot)</text>
+<rect x="399.2" y="200.8" width="135.0" height="31.5" rx="3" fill="none" stroke="#7F77DD" stroke-width="1.2" stroke-dasharray="5 3"/>
+<text class="ts" x="466.8" y="216.5" text-anchor="middle" dominant-baseline="central">3 boutons (capot)</text>
+<path d="M102.2 209.8 C129.2 209.8 129.2 169.2 156.2 169.2" fill="none" stroke="#378ADD" stroke-width="1.5"/>
+<path d="M102.2 216.5 C129.2 216.5 129.2 245.8 156.2 245.8" fill="none" stroke="#378ADD" stroke-width="1.5"/>
+<path d="M102.2 223.2 C129.2 223.2 129.2 268.2 156.2 268.2" fill="none" stroke="#378ADD" stroke-width="1.5"/>
+<text class="ts" x="104.0" y="101.8" dominant-baseline="central">3 tuyaux</text>
+<line x1="554.5" y1="119.8" x2="554.5" y2="146.8" stroke="#D85A30" stroke-width="5"/>
+<line x1="558.5" y1="133.3" x2="568.5" y2="133.3" stroke="#D85A30" stroke-width="1"/>
+<text class="ts" x="572.5" y="133.3" dominant-baseline="central">micro-USB ESP32</text>
+<line x1="554.5" y1="317.8" x2="554.5" y2="340.2" stroke="#D85A30" stroke-width="5"/>
+<line x1="558.5" y1="329.0" x2="568.5" y2="329.0" stroke="#D85A30" stroke-width="1"/>
+<text class="ts" x="572.5" y="329.0" dominant-baseline="central">USB-C charge</text>
+<line x1="91" y1="392.5" x2="554.5" y2="392.5" stroke="#5F5E5A" stroke-width="1"/>
+<line x1="91" y1="388.5" x2="91" y2="396.5" stroke="#5F5E5A" stroke-width="1"/>
+<line x1="554.5" y1="388.5" x2="554.5" y2="396.5" stroke="#5F5E5A" stroke-width="1"/>
+<text class="ts" x="322.75" y="404.5" text-anchor="middle" dominant-baseline="central">103 × 73 mm extérieur, manchon non compris</text>
+<text class="th" x="20" y="452" dominant-baseline="central">Coupe longitudinale (Y ≈ 16 mm), hauteurs en mm</text>
+<g class="c-gray"><rect x="91" y="503.8" width="463.5" height="11.2" rx="2" stroke-width="0.5"/></g>
+<g class="c-gray"><rect x="91" y="656.8" width="463.5" height="11.2" rx="2" stroke-width="0.5"/></g>
+<g class="c-gray"><rect x="91" y="515.0" width="11.2" height="141.8" stroke-width="0.5"/></g>
+<g class="c-gray"><rect x="543.2" y="515.0" width="11.2" height="141.8" stroke-width="0.5"/></g>
+<text class="ts" x="106.8" y="497.9" dominant-baseline="central">capot 2,5</text>
+<g class="c-green"><rect x="192.2" y="625.2" width="274.5" height="31.5" rx="2" stroke-width="0.5"/></g>
+<text class="ts" x="329.45" y="641.0" text-anchor="middle" dominant-baseline="central">LiPo (7)</text>
+<g class="c-gray"><rect x="115.8" y="618.5" width="414.0" height="6.8" rx="2" stroke-width="0.5"/></g>
+<text class="ts" x="118.0" y="641.0" dominant-baseline="central">plaque (1,5)</text>
+<g class="c-teal"><rect x="156.2" y="572.4" width="130.5" height="46.1" rx="2" stroke-width="0.5"/></g>
+<text class="ts" x="221.45" y="595.45" text-anchor="middle" dominant-baseline="central">SDP810 (10,25)</text>
+<g class="c-amber"><rect x="313.8" y="546.5" width="229.5" height="72.0" rx="2" stroke-width="0.5"/></g>
+<text class="ts" x="428.55" y="582.5" text-anchor="middle" dominant-baseline="central">Dupont + fils repliés (16)</text>
+<g class="c-gray"><rect x="313.8" y="524.0" width="229.5" height="22.5" rx="2" stroke-width="0.5"/></g>
+<text class="ts" x="428.55" y="535.25" text-anchor="middle" dominant-baseline="central">ESP32 DevKit V1 (5)</text>
+<g class="c-purple"><rect x="417.2" y="503.8" width="121.5" height="18.0" rx="2" stroke-width="0.5"/></g>
+<text class="ts" x="478.0" y="490.2" text-anchor="middle" dominant-baseline="central">OLED</text>
+<line x1="564.5" y1="668.0" x2="564.5" y2="503.8" stroke="#5F5E5A" stroke-width="1"/>
+<line x1="560.5" y1="668.0" x2="568.5" y2="668.0" stroke="#5F5E5A" stroke-width="1"/>
+<line x1="560.5" y1="503.8" x2="568.5" y2="503.8" stroke="#5F5E5A" stroke-width="1"/>
+<text class="ts" x="570.5" y="587.0" dominant-baseline="central">≈ 36 mm</text>
+<line x1="102.2" y1="557.8" x2="554.5" y2="557.8" stroke="#E24B4A" stroke-width="1.2" stroke-dasharray="6 3"/>
+<text class="ts" x="115.8" y="548.8" dominant-baseline="central">capot version soudée ≈ 25 mm</text>
+<text class="ts" x="20" y="690" dominant-baseline="central">Prototype Dupont ≈ 103×73×36 mm · fils soudés sur les picots ≈ 103×73×25 mm.</text>
+<text class="ts" x="20" y="706" dominant-baseline="central">Cotes typiques à confirmer sur les pièces ; position des ports SDP et des tuyaux à ajuster.</text>
+</svg>

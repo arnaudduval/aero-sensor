@@ -1,0 +1,127 @@
+<svg width="100%" viewBox="0 0 680 700" role="img">
+<title>Support pivotant à crans pour étalonner le lacet</title>
+<desc>Vue de dessus et coupe d'un support pivotant : une embase fixe en secteur de disque percée de 13 trous d'indexage tous les 5 degrés de moins 30 à plus 30 degrés sur un rayon de 60 millimètres, un bras tournant qui porte le collier du tube de sonde, un pivot M5 avec écrou à ailettes et un pion d'indexage de 3 millimètres.</desc>
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker>
+</defs>
+
+<text class="th" x="40" y="30">Vue de dessus</text>
+<text class="ts" x="590" y="52" text-anchor="middle">Avant du vélo</text>
+<line x1="540" y1="64" x2="640" y2="64" class="arr" marker-end="url(#arrow)"/>
+
+<path d="M132.4 225.7 L321 88.6 A235 235 0 0 1 321 411.4 L132.4 274.3 A30 30 0 0 1 132.4 225.7 Z" fill="var(--t)" fill-opacity="0.12" stroke="var(--t)" stroke-width="0.75"/>
+
+<circle cx="305.9" cy="160" r="4.5" fill="none" stroke="var(--t)" stroke-width="0.75"/>
+<circle cx="313.1" cy="173.9" r="4.5" fill="none" stroke="var(--t)" stroke-width="0.75"/>
+<circle cx="319.1" cy="188.4" r="4.5" fill="none" stroke="var(--t)" stroke-width="0.75"/>
+<circle cx="323.9" cy="203.4" r="4.5" fill="none" stroke="var(--t)" stroke-width="0.75"/>
+<circle cx="327.3" cy="218.7" r="4.5" fill="none" stroke="var(--t)" stroke-width="0.75"/>
+<circle cx="329.3" cy="234.3" r="4.5" fill="none" stroke="var(--t)" stroke-width="0.75"/>
+<circle cx="330" cy="250" r="4.5" fill="none" stroke="var(--t)" stroke-width="0.75"/>
+<circle cx="329.3" cy="265.7" r="4.5" fill="none" stroke="var(--t)" stroke-width="0.75"/>
+<circle cx="327.3" cy="281.3" r="4.5" fill="none" stroke="var(--t)" stroke-width="0.75"/>
+<circle cx="323.9" cy="296.6" r="4.5" fill="none" stroke="var(--t)" stroke-width="0.75"/>
+<circle cx="319.1" cy="311.6" r="4.5" fill="none" stroke="var(--t)" stroke-width="0.75"/>
+<circle cx="313.1" cy="326.1" r="4.5" fill="none" stroke="var(--t)" stroke-width="0.75"/>
+<circle cx="305.9" cy="340" r="4.5" fill="none" stroke="var(--t)" stroke-width="0.75"/>
+
+<line x1="356.1" y1="131" x2="363.9" y2="126.5" stroke="var(--t)" stroke-width="0.75"/>
+<line x1="373.7" y1="168.6" x2="382.1" y2="165.5" stroke="var(--t)" stroke-width="0.75"/>
+<line x1="384.4" y1="208.7" x2="393.2" y2="207.1" stroke="var(--t)" stroke-width="0.75"/>
+<line x1="384.4" y1="291.3" x2="393.2" y2="292.9" stroke="var(--t)" stroke-width="0.75"/>
+<line x1="373.7" y1="331.4" x2="382.1" y2="334.5" stroke="var(--t)" stroke-width="0.75"/>
+<line x1="356.1" y1="369" x2="363.9" y2="373.5" stroke="var(--t)" stroke-width="0.75"/>
+
+<text class="ts" x="368" y="126" dominant-baseline="central">+30°</text>
+<text class="ts" x="386" y="165" dominant-baseline="central">+20°</text>
+<text class="ts" x="397" y="207" dominant-baseline="central">+10°</text>
+<text class="ts" x="392" y="226" dominant-baseline="central">0°</text>
+<text class="ts" x="397" y="293" dominant-baseline="central">−10°</text>
+<text class="ts" x="386" y="335" dominant-baseline="central">−20°</text>
+<text class="ts" x="368" y="374" dominant-baseline="central">−30°</text>
+
+<rect class="c-teal" x="130" y="230" width="300" height="40" rx="20" stroke-width="0.5" style="fill-opacity:0.5"/>
+
+<line x1="172" y1="250" x2="322" y2="250" class="leader"/>
+<text class="ts" x="247" y="241" text-anchor="middle" dominant-baseline="central">R = 60 mm</text>
+
+<g class="c-amber">
+<rect x="132" y="245" width="36" height="10" rx="3" stroke-width="0.5"/>
+<circle cx="150" cy="250" r="8" stroke-width="0.5"/>
+</g>
+
+<circle class="c-coral" cx="330" cy="250" r="5.5" stroke-width="1"/>
+
+<g class="c-teal">
+<rect x="430" y="222" width="70" height="56" rx="6" stroke-width="0.5"/>
+<text class="th" x="465" y="250" text-anchor="middle" dominant-baseline="central">Collier</text>
+</g>
+
+<g class="c-gray">
+<rect x="500" y="236" width="140" height="28" rx="3" stroke-width="0.5"/>
+<text class="ts" x="570" y="250" text-anchor="middle" dominant-baseline="central">Tube vers la sonde</text>
+</g>
+
+<rect class="c-gray" x="40" y="430" width="12" height="12" rx="2" stroke-width="0.5"/>
+<text class="ts" x="58" y="436" dominant-baseline="central">Embase fixe</text>
+<rect class="c-teal" x="170" y="430" width="12" height="12" rx="2" stroke-width="0.5"/>
+<text class="ts" x="188" y="436" dominant-baseline="central">Bras tournant</text>
+<rect class="c-coral" x="300" y="430" width="12" height="12" rx="2" stroke-width="0.5"/>
+<text class="ts" x="318" y="436" dominant-baseline="central">Pion d'indexage</text>
+<rect class="c-amber" x="440" y="430" width="12" height="12" rx="2" stroke-width="0.5"/>
+<text class="ts" x="458" y="436" dominant-baseline="central">Pivot M5 + écrou</text>
+
+<text class="th" x="40" y="474">Coupe selon l'axe du bras (position 0°)</text>
+
+<line x1="150" y1="500" x2="330" y2="500" class="arr" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+<text class="ts" x="240" y="490" text-anchor="middle" dominant-baseline="central">60 mm</text>
+<line x1="150" y1="504" x2="150" y2="540" class="leader"/>
+<line x1="330" y1="504" x2="330" y2="538" class="leader"/>
+
+<path d="M110 588 H385 V603 H166 V591 H134 V603 H110 Z" fill="var(--t)" fill-opacity="0.12" stroke="var(--t)" stroke-width="0.75"/>
+<text class="ts" x="250" y="596" text-anchor="middle" dominant-baseline="central">Embase fixe</text>
+
+<rect class="c-gray" x="128" y="578" width="44" height="10" stroke-width="0.5"/>
+
+<g class="c-teal">
+<rect x="130" y="563" width="300" height="15" rx="2" stroke-width="0.5"/>
+<text class="ts" x="280" y="571" text-anchor="middle" dominant-baseline="central">Bras tournant</text>
+</g>
+
+<rect class="c-teal" x="430" y="523" width="70" height="55" rx="4" stroke-width="0.5"/>
+<rect class="c-gray" x="500" y="534" width="140" height="29" rx="2" stroke-width="0.5"/>
+<line x1="436" y1="534" x2="500" y2="534" class="leader"/>
+<line x1="436" y1="563" x2="500" y2="563" class="leader"/>
+<line x1="436" y1="534" x2="436" y2="563" class="leader"/>
+<text class="ts" x="570" y="549" text-anchor="middle" dominant-baseline="central">Tube vers la sonde</text>
+
+<rect class="c-gray" x="134" y="558" width="32" height="5" stroke-width="0.5"/>
+<g class="c-amber">
+<rect x="143" y="546" width="14" height="50" stroke-width="0.5"/>
+<rect x="138" y="594" width="24" height="9" stroke-width="0.5"/>
+<rect x="138" y="542" width="24" height="16" rx="3" stroke-width="0.5"/>
+<rect x="124" y="540" width="14" height="8" rx="2" stroke-width="0.5"/>
+<rect x="162" y="540" width="14" height="8" rx="2" stroke-width="0.5"/>
+</g>
+
+<g class="c-coral">
+<rect x="326" y="548" width="8" height="50" stroke-width="0.5"/>
+<rect x="319" y="540" width="22" height="8" rx="2" stroke-width="0.5"/>
+</g>
+
+<rect x="190" y="603" width="195" height="30" fill="none" stroke="var(--t)" stroke-width="0.75" stroke-dasharray="4 3"/>
+<text class="ts" x="287" y="618" text-anchor="middle" dominant-baseline="central">Support vélo, quart de tour</text>
+
+<text class="ts" x="116" y="544" text-anchor="end" dominant-baseline="central">Boulon M5 +</text>
+<text class="ts" x="116" y="560" text-anchor="end" dominant-baseline="central">écrou à ailettes</text>
+
+<line x1="352" y1="516" x2="341" y2="540" class="leader"/>
+<text class="ts" x="354" y="510" dominant-baseline="central">Pion d'indexage Ø3 mm</text>
+
+<line x1="518" y1="510" x2="496" y2="526" class="leader"/>
+<text class="ts" x="522" y="504" dominant-baseline="central">Collier de tube</text>
+
+<line x1="150" y1="604" x2="150" y2="644" class="leader"/>
+<text class="ts" x="150" y="654" text-anchor="middle" dominant-baseline="central">Tête M5 noyée dans</text>
+<text class="ts" x="150" y="670" text-anchor="middle" dominant-baseline="central">l'embase (empreinte hex.)</text>
+</svg>
